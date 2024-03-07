@@ -11,7 +11,7 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose the Application in 8000 port
-EXPOSE 8080
+EXPOSE 80
 
 # Run pytest when the container launches
 CMD ["python", "main.py"]
